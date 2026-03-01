@@ -102,7 +102,7 @@ The system is **hybrid by design**: precise numerical calculations are executed 
 ## Daily Pipeline
 
 ```bash
-python backend/daily.py AAPL MSFT GOOGL
+python backend/daily.py 
 ```
 
 | Step | Description |
