@@ -1,28 +1,5 @@
--- ============================================================
--- AGENTIC FINANCE - CLEAN SCHEMA (FULL RESET)
--- Drop everything and start fresh
--- ============================================================
 
-DROP TABLE IF EXISTS decisions CASCADE;
-DROP TABLE IF EXISTS skips CASCADE;
-DROP TABLE IF EXISTS trades CASCADE;
-DROP TABLE IF EXISTS prediction_audits CASCADE;
-DROP TABLE IF EXISTS predictions CASCADE;
-DROP TABLE IF EXISTS agent_reliability CASCADE;
-DROP TABLE IF EXISTS judge_evaluations CASCADE;
-DROP TABLE IF EXISTS agent_outputs CASCADE;
-DROP TABLE IF EXISTS income_statements CASCADE;
-DROP TABLE IF EXISTS fundamentals CASCADE;
-DROP TABLE IF EXISTS news_sentiment CASCADE;
-DROP TABLE IF EXISTS daily_prices CASCADE;
-DROP TABLE IF EXISTS macro_data CASCADE;
-DROP TABLE IF EXISTS portfolio CASCADE;
-DROP TABLE IF EXISTS portfolio_status CASCADE;
-DROP TABLE IF EXISTS collection_log CASCADE;
-
--- ============================================================
 -- DATA TABLES
--- ============================================================
 
 create table daily_prices (
   id           uuid default gen_random_uuid() primary key,
