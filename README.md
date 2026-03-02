@@ -4,7 +4,7 @@
 **A multi-agent system that analyzes stocks, generates predictions, self-corrects over time, and manages a real portfolio in a fully autonomous way.**
 ![Dashboard](Multi_Agent_System/images/c.jpg)
 ## Live Demo
-[Dashboard](https://multi-agent-system-drab.vercel.app/)
+[Dashboard link](https://multi-agent-system-three.vercel.app/)
 ## Overview
 
 Autonomous Multi-Agent System is a pipeline of 8 specialized AI agents built on Claude. Each agent has a precise responsibility, operates on a specific subset of data, and its work is evaluated by the other agents in the system.
